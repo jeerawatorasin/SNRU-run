@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="snru.orasin.jeerawat.snrurun.SignUp">
+    tools:context="snru.orasin.jeerawat.snrurun.SignUp"
+    android:background="@drawable/bg11">
 
     <LinearLayout
         android:orientation="vertical"
@@ -22,7 +23,8 @@
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.03"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:textColor="@color/text" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -35,7 +37,8 @@
                 android:text="Name :"
                 android:id="@+id/textView2"
                 android:textSize="25dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
@@ -55,7 +58,8 @@
                 android:text="User :"
                 android:id="@+id/textView3"
                 android:textSize="25dp"
-                android:layout_weight="1.2" />
+                android:layout_weight="1.2"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
@@ -75,7 +79,8 @@
                 android:text="Password :"
                 android:id="@+id/textView4"
                 android:textSize="25dp"
-                android:layout_weight="1.2" />
+                android:layout_weight="1.2"
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
